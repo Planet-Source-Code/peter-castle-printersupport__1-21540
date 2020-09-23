@@ -1,0 +1,67 @@
+[Root]
+Most Recent Package=PrinterSupport
+
+
+[Package|PrinterSupport|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=F:\VB\Web_Common\PrinterSupport\Package
+
+[Package|PrinterSupport|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PrinterSupport|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PrinterSupport|Files Found]
+
+[Package|PrinterSupport|Files Released]
+
+[Package|PrinterSupport|Missing Dependency Information]
+
+[Package|PrinterSupport|Out-of-Date Dependency Information]
+
+[Package|PrinterSupport|Files Added]
+
+[Package|PrinterSupport|Files Removed]
+c:\winnt\system32\msvbvm60.dll=
+c:\winnt\system32\oleaut32.dll=
+c:\winnt\system32\olepro32.dll=
+c:\winnt\system32\asycfilt.dll=
+c:\winnt\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|PrinterSupport|Files In Project]
+F:\VB\Web_Common\PrinterSupport\PrinterSupport.dll=Yes
+C:\WINNT\system32\msvbvm60.dll=No
+C:\WINNT\system32\OLEAUT32.DLL=No
+C:\WINNT\system32\OLEPRO32.DLL=No
+C:\WINNT\system32\ASYCFILT.DLL=No
+C:\WINNT\system32\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+
+[Package|PrinterSupport|Configure Registry Files]
+Applicable=No
+
+[Package|PrinterSupport|Configure Remote Servers]
+Applicable=No
+
+[Package|PrinterSupport|Install Locations]
+
+[Package|PrinterSupport|Configure Shared Files]
+Applicable=
+
+[Package|PrinterSupport|ComponentInfo]
+PrinterSupport.dll=thiscab
+
+[Package|PrinterSupport|ObjectInfo]
+MyPrinter=true;true
+
+[Package|PrinterSupport|Package]
+PackageFolder=F:\VB\Web_Common\PrinterSupport\Package
+ProjectFolder=F:\VB\Web_Common\PrinterSupport
+ServerSideCab=F:\VB\Web_Common\PrinterSupport\Package\PrinterSupport.CAB
+File1=F:\VB\Web_Common\PrinterSupport\Package\PrinterSupport.CAB
+File2=F:\VB\Web_Common\PrinterSupport\Package\PrinterSupport.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
